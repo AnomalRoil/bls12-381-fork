@@ -1,4 +1,4 @@
-module github.com/kilic/bls12-381
+module github.com/AnomalRoil/bls12-381
 
 go 1.18
 

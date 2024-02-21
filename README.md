@@ -1,5 +1,14 @@
 ### High Speed BLS12-381 Implementation in Go
 
+This is a maintained fork of https://github.com/kilic/bls12-381 following the archival of that repo in December 2023.
+
+This notably has:
+- faster subgroup checks
+- more tests
+- uses a more recent Go version and tagged version
+
+PRs and issues are welcome.
+
 #### Pairing Instance
 
 A Group instance or a pairing engine instance _is not_ suitable for concurrent processing since an instance has its own preallocated memory for temporary variables. A new instance must be created for each thread.
